@@ -1,7 +1,7 @@
 include_defs('//BUCKAROO_DEPS')
 
 prebuilt_cxx_library(
-  name = 'boost-uuid',
+  name = 'uuid',
   header_only = True,
   header_namespace = 'include/boost/uuid',
   exported_headers = subdir_glob([
